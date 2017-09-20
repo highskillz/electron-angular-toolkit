@@ -1,7 +1,7 @@
 {
-  "name": "electron-angular-toolkit",
-  "version": "0.0.9",
-  "description": "A tool which helps to build electron applications with angular2",
+  "name": "electron-angular-toolkit-edge",
+  "version": "0.0.14",
+  "description": "A tool which helps to build electron applications with angular2 - forked from electron-angular-toolkit",
   "main": "lib/index.js",
   "bin": "./lib/index.js",
   "scripts": {
@@ -12,11 +12,11 @@
     "angular2",
     "electron-builder"
   ],
-  "author": "Cedric Krause",
+  "author": "Nicholas Westley (Cedric Krause)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cedware/electron-angular-toolkit.git"
+    "url": "https://github.com/Nicholas-Westley/electron-angular-toolkit.git"
   },
   "devDependencies": {
     "@types/node": "0.0.2",
@@ -26,12 +26,13 @@
   },
   "dependencies": {
     "@types/chalk": "^0.4.31",
-    "@types/electron-builder": "^2.0.29",
+    "@types/electron-builder": "^2.8.0",
     "@types/mz": "0.0.30",
     "@types/ncp": "^2.0.0",
     "chalk": "^1.1.3",
     "core-js": "^2.4.1",
     "electron-builder": "^10.6.1",
+    "electron-builder": "^19.27.7",
     "mz": "^2.6.0",
     "ncp": "^2.0.0",
     "npm": "^4.0.3"
