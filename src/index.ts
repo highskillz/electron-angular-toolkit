@@ -52,9 +52,10 @@ class Main {
 
 
     private static runNgBuild(watch: boolean): Promise<void> {
-        console.log('running ng build')
+        const maxBuffer = 1024 * 8000;
+        console.log('running ng build with ' + maxBuffer);
         return new Promise<void>((resolve, reject) => {
-            let proc = childProcess.exec(`ng build --watch=${watch} --output-path=bundle`, { maxBuffer: 1024 * 5000 }, (error, stdout, stderror) => {
+            let proc = childProcess.exec(`ng build --watch=${watch} --output-path=bundle`, { maxBuffer: maxBuffer }, (error, stdout, stderror) => {
                 if (error) {
                     console.log(chalk.red('ng build failed'));
                     console.log(chalk.red(`ng build --watch=${watch} --output-path=bundle`));

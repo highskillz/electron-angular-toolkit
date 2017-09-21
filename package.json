@@ -1,6 +1,6 @@
 {
   "name": "electron-angular-toolkit-edge",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A tool which helps to build electron applications with angular2 - forked from electron-angular-toolkit",
   "main": "lib/index.js",
   "bin": "./lib/index.js",
