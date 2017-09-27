@@ -4,6 +4,9 @@
   "description": "A tool which helps to build electron applications with angular2 - forked from electron-angular-toolkit",
   "main": "lib/index.js",
   "bin": "./lib/index.js",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
