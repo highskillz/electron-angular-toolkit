@@ -26,6 +26,10 @@
   version "0.4.31"
   resolved "https://registry.yarnpkg.com/@types/chalk/-/chalk-0.4.31.tgz#a31d74241a6b1edbb973cf36d97a2896834a51f9"
 
+"@types/debug@^0.0.30":
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-0.0.30.tgz#dc1e40f7af3b9c815013a7860e6252f6352a84df"
+
 "@types/mz@0.0.30":
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/mz/-/mz-0.0.30.tgz#58daa9f35811d607037bab1f9cc7d4a23e6aafae"
@@ -41,10 +45,6 @@
 "@types/node@*":
   version "8.0.44"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.44.tgz#5c39800fda4b76dab39a5f28fda676fc500015ac"
-
-"@types/node@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-0.0.2.tgz#0da4934902fbf68a97a0f53204a35ad2224917bc"
 
 "@types/npm@^2.0.28":
   version "2.0.29"
@@ -2545,7 +2545,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript@^2.1.4:
+typescript@^2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.3.tgz#df3dcdc38f3beb800d4bc322646b04a3f6ca7f0d"
 

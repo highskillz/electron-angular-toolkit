@@ -2,6 +2,13 @@
   "name": "electron-angular-toolkit-vnext",
   "version": "0.0.24",
   "description": "A tool which helps to build electron applications with angular2 - forked from electron-angular-toolkit",
+  "author": "HighSkillz (Nicholas Westley (Cedric Krause))",
+  "license": "MIT",
+  "engines": {
+    "node": "7.4.0",
+    "yarn": "^1.2.0",
+    "npm": "^5.5.0"
+  },
   "main": "lib/index.js",
   "bin": "./lib/index.js",
   "files": [
@@ -16,17 +23,15 @@
     "angular2",
     "electron-builder"
   ],
-  "author": "HighSkillz (Nicholas Westley (Cedric Krause))",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/highskillz/electron-angular-toolkit-vnext.git"
   },
   "devDependencies": {
-    "@types/node": "0.0.2",
+    "@types/debug": "^0.0.30",
     "@types/npm": "^2.0.28",
     "npm": "^4.0.3",
-    "typescript": "^2.1.4"
+    "typescript": "^2.5.3"
   },
   "dependencies": {
     "@types/chalk": "^0.4.31",
